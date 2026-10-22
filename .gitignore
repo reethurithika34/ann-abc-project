@@ -1,0 +1,22 @@
+﻿# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node and frontend build output
+frontend/node_modules/
+frontend/build/
+npm-debug.log*
+
+# Local runtime output and datasets
+backend/experiment_log.jsonl
+backend/*.log
+frontend/*.log
+
+# Environment variables and local editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
